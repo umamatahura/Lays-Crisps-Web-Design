@@ -1,0 +1,235 @@
+/* Responsive For Tab Styles Start */
+
+@media (max-width:720px) {
+
+    /* Global Styles Start */
+    :root {
+        font-size: 70%;
+        width: 100%;
+    }
+
+    p {
+        max-width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .btn a {
+        border-radius: 8px;
+        padding: 10px 12px;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Global Styles End */
+
+    /* Header Styles Start */
+    .header-content i {
+        left: 38.5%;
+        top: 4.4%;
+    }
+
+    /* Header Styles End */
+
+    /* Hero Area Styles Start */
+    .hero-content {
+        width: 40%;
+        padding-left: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .hero-content p {
+        width: 400px;
+        font-size: 8px;
+        padding-top: 10px;
+    }
+
+    .hero-img img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* Hero Area Styles End */
+
+    /* Tasty Chips Area Styles Start */
+    .tasy-chips-content {
+        width: 40%;
+    }
+
+    .tasy-chips-content h2 {
+        font-size: 18px;
+    }
+
+    .chips-image img {
+        width: 80%;
+    }
+
+    .tasy-chips-content img {
+        width: 100%;
+    }
+
+    .tasy-chips-review {
+        width: 40%;
+    }
+
+    .tasy-chips-h3 {
+        margin-top: 120px;
+    }
+
+    .tasy-chips-review h3,
+    img,
+    p {
+        font-size: 80%;
+    }
+
+    .tasy-chips-review-para {
+        font-size: 40%;
+    }
+
+    .tasy-chips-review p,
+    h3 {
+        padding-bottom: 4px;
+    }
+
+    .tasy-chips-review p {
+        font-size: 10px;
+    }
+
+    .chips-image {
+        right: 5px;
+        top: 0;
+    }
+
+    .see-more-btn a {
+        padding-top: 18px;
+    }
+
+    /* Tasty Chips Area Styles End */
+
+    /* Chips Reviews Area Styles Start */
+    .review-content {
+        width: 50%;
+        margin-left: 180px;
+    }
+
+    .review-images {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 40px 10px;
+    }
+
+    .lays-image {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 30px;
+    }
+
+    /* Chips Reviews Area Styles End */
+
+    /* Popular Crisps Area Styles Start */
+    .popular-crisps-part-1 img {
+        width: 80%;
+        margin-left: 30px;
+    }
+    .popular-crisps-part-2 img{
+        width: 75%;
+        margin-left: 30px;
+    }
+    .popular-crisps-part-1 h3,
+    .popular-crisps-part-2 h3 {
+        font-size: 100%;
+        margin-left: 30px;
+    }
+
+    .video-icon {
+        font-size: 80%;
+        margin-left: 30px;
+    }
+
+    /* Popular Crisps Area Styles End */
+
+    /* Customer Area Styles Start */
+    .customer-container{
+        padding: 0 40px;
+    }
+    .customer-content {
+        width: 50%;
+    }
+    .customer-content h2 {
+        font-size: 22px;
+        padding-top: 60px;
+    }
+    
+    .customer-content p {
+        font-size: 80%;
+        width: 80%;
+        padding: 10px 0;
+    }
+    .customer-content h3 {
+        font-size: 70%;
+        padding: 15px 0;
+    }
+    hr {
+        width: 85%;
+    }
+    .customer-icon img{
+        width: 30%;
+        font-size: 8px;
+        bottom: 30px;
+        right: 70px;
+    }
+    .customer-image img {
+        width: 250px;
+        margin-top: 20px;
+    }
+    /* Customer Area Styles End */
+
+    /* Find Crisps Area Styles Start */
+    .find-crisps-content {
+        width: 50%;
+        padding: 80px 0;
+        margin-left: 180px;
+    }
+
+    .find-crisps-content h2 {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .find-crisps-content p {
+        padding-top: 10px;
+    }
+
+    /* Find Crisps Area Styles End */
+
+    /* Footer Area Styles Start */
+    footer {
+        margin: 60px 0;
+        padding: 0 20px;
+    }
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-image img {
+        width: 100%;
+    }
+
+    /* Footer Area Styles End */
+
+}
+
+/* Responsive For Tab Styles End */

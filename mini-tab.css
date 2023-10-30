@@ -1,0 +1,170 @@
+/* Responsive For Mini-Tab Styles Start */
+@media (max-width: 576px) {
+
+    /* Global Styles Start */
+    :root {
+        font-size: 50%;
+    }
+
+    /* Global Styles End */
+
+    /* Header Styles Start */
+    .header-input-btn img {
+        display: none;
+    }
+
+    .header-content i {
+        left: 36%;
+        top: 4.5%;
+    }
+
+    /* Header Styles End */
+
+    /* Hero Area Styles Start */
+    .hero-content {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .hero-img img {
+        width: 90%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    /* Hero Area Styles End */
+
+    /* Tasty Chips Area Styles Start */
+    .tasy-chips-content {
+        width: 50%;
+    }
+
+    .chips-image {
+        margin-left: 380px;
+    }
+
+    .tasy-chips-h3 {
+        margin-top: 90px;
+    }
+
+    .tasy-chips-review .tasy-chips-h3 {
+        font-size: 15px;
+    }
+
+    .tasy-chips-review p,
+    h3 {
+        padding-bottom: 1px;
+    }
+
+    .tasy-chips-review .price {
+        font-size: 12px;
+    }
+
+    .tasy-chips-review .taka {
+        font-size: 12px;
+    }
+
+    .tasy-chips-review-para {
+        font-size: 30%;
+    }
+
+    .tasy-chips-review p {
+        font-size: 9px;
+    }
+
+    .tasy-chips-content img {
+        width: 90%;
+    }
+
+    /* Tasty Chips Area Styles End */
+
+    /* Chips Reviews Area Styles Start */
+    .review-content {
+        width: 70%;
+        margin-left: 90px;
+    }
+
+    .review-content p {
+        font-size: 12px;
+    }
+
+    /* Chips Reviews Area Styles End */
+
+    /* Popular Crisps Area Styles Start */
+    .popular-crisps-part-2 h2 {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .popular-crisps-part-2 img {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    /* Popular Crisps Area Styles End */
+
+    /* Customer Area Styles Start */
+    .customer-content {
+        width: 250px;
+        height: auto;
+    }
+
+    .customer-content h2 {
+        font-size: 16px;
+    }
+
+    .customer-content h3 {
+        font-size: 80%;
+    }
+
+    .customer-para {
+        font-size: 11px;
+    }
+
+    .customer-icon img {
+        width: 20%;
+        font-size: 8px;
+        bottom: 90px;
+        right: 70px;
+    }
+
+    .customer-image img {
+        width: 200px;
+        margin-top: 20px;
+        margin-right: 250px;
+    }
+
+    /* Customer Area Styles End */
+
+    /* Find Crisps Area Styles Start */
+    .find-crisps-content {
+        padding: 70px 0;
+        margin-left: 120px;
+    }
+    .find-crisps-content p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    /* Find Crisps Area Styles End */
+
+    /* Footer Area Styles Start */
+    .footer-content {
+        width: 600px;
+    }
+
+    .footer-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Footer Area Styles End */
+}
+
+
+/* Responsive For Mini-Tab Styles End */

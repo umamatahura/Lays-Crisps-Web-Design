@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* Global Styles Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --primary-color: #80E2FF;
+    --Secondary-color: #FFD36A;
+    --text-color: #182327;
+    --white-color: #FFF;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+p {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn a {
+    border-radius: 8px;
+    padding: 11px 15px;
+    margin: 20px 0;
+    color: var(--white-color);
+    background: var(--text-color);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 450px;
+}
+
+/* Global Styles End */
+
+
+
+/* Header Styles Start */
+.Header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 20px 10px;
+}
+
+.header-input-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-content img {
+    margin: 20px 10px;
+}
+
+.header-content i {
+    position: absolute;
+    left: 60.5%;
+    top: 6%;
+}
+
+.header-content input {
+    padding: 10px 25px;
+    margin-top: 0;
+}
+
+.ham-icon {
+    display: none;
+}
+
+/* Header Styles End */
+
+/* Hero Area Styles Start */
+.hero {
+    background: linear-gradient(180deg, #02B5EA 0%, rgba(2, 181, 234, 0.15) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-wrapper {
+    display: flex;
+    padding: 60px 0;
+}
+
+.hero-content h1 {
+    width: 450px;
+}
+
+.hero-content p {
+    width: 540px;
+    padding-top: 10px;
+}
+
+.hero-img img {
+    margin-left: 80px;
+    width: 90%;
+    height: 500px;
+}
+
+/* Hero Area Styles End */
+
+/* Tasty Chips Area Styles Start */
+.first-section {
+    position: relative;
+}
+
+.chips-image {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+}
+
+.half-width h2 {
+    margin-bottom: 70px;
+}
+.tasy-chips-h3{
+    margin-top: 240px;
+}
+
+.tasy-chips-img img {
+    width: 450px;
+}
+
+.tasy-chips-review p,
+h3 {
+    padding-bottom: 10px;
+}
+
+.tasy-chips-review p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.tasy-chips-bttn {
+    display: flex;
+    gap: 20px;
+}
+
+.see-more-btn a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--text-color);
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+/* Tasty Chips Area Styles End */
+
+/* Chips Reviews Area Styles Start */
+.review-content {
+    width: 600px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.review-content p {
+    margin-top: 10px;
+}
+
+.review-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px 10px;
+    margin-left: 70px;
+}
+
+.lays-image-one img,
+.lays-image-five img {
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 14%;
+}
+
+.lays-image-two img {
+    width: 50%;
+    margin-bottom: 35px;
+    margin-left: 20%;
+}
+
+.lays-image-three img {
+    width: 50%;
+    margin-bottom: 35px;
+    margin-left: 17%;
+}
+
+.lays-image-four img {
+    width: 50%;
+    margin-bottom: 35px;
+    margin-left: 20%;
+}
+
+.lays-image-six img {
+    width: 50%;
+    margin-bottom: 35px;
+    margin-left: 24%;
+}
+
+.lays-image-one {
+    background-image: url(image/background-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-color: #F8FFE3;
+}
+
+.lays-image-two {
+    background-image: url(image/background-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-color: #FFEFE3;
+}
+
+.lays-image-three {
+    background-image: url(image/background-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-color: #FFFBD6;
+}
+
+.lays-image-four {
+    background-image: url(image/background-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-color: #FFEFE3;
+}
+
+.lays-image-five {
+    background-image: url(image/background-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-color: #DDF6FF;
+}
+
+.lays-image-six {
+    background-image: url(image/background-6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-color: #E3FFF3;
+}
+
+.lays-image h3 {
+    padding-top: 20px;
+}
+
+.lays-image p {
+    width: 60%;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.lays-image {
+    position: relative;
+    padding: 20px 0;
+}
+
+.cart-image {
+    position: absolute;
+    right: 90px;
+    bottom: 105px;
+}
+
+.cart-image img {
+    width: 60%;
+}
+
+.review-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Chips Reviews Area Styles End */
+
+/* Popular Crisps Area Styles Start */
+.popular-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.popular-crisps-part-1 img,
+.popular-crisps-part-2 img {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+
+.popular-crisps-part-2 .lays-eight {
+    margin-top: 50px;
+}
+
+.video-content {
+    display: flex;
+    gap: 10px;
+}
+
+.video-icon {
+    margin-top: 10px;
+}
+
+.video-content p {
+    margin-top: 5px;
+}
+
+.dot-image {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+/* Popular Crisps Area Styles End */
+
+/* Customer Area Styles Start */
+.customer {
+    background-color: var(--primary-color);
+    margin-top: 100px;
+}
+
+.customer-container {
+    display: flex;
+}
+
+hr {
+    color: #33D1FF;
+}
+
+.customer-content {
+    width: 50%;
+}
+
+.customer-content h2 {
+    padding-top: 150px;
+}
+
+.customer-para p {
+    font-size: 20px;
+    font-style: italic;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.customer-content h3 {
+    padding: 28px 0;
+}
+
+.customer-image {
+    padding: 60px;
+}
+
+.slider {
+    position: relative;
+}
+
+.customer-icon {
+    position: absolute;
+    font-size: 50px;
+    color: var(--text-color);
+    bottom: 10px;
+    right: 40px;
+}
+
+.customer-icon img {
+    margin-right: 10px;
+}
+
+/* Customer Area Styles End */
+
+/* Find Crisps Area Styles Start */
+.find-crisps {
+    background-color: var(--Secondary-color);
+}
+
+.find-crisps-content {
+    width: 50%;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.find-crisps-content h2 {
+    width: 80%;
+    margin-left: 60px;
+}
+
+.find-crisps-content p {
+    padding-top: 40px;
+}
+
+/* Find Crisps Area Styles End */
+
+/* Footer Area Styles Start */
+footer {
+    margin: 80px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 550px;
+}
+
+.footer-image img {
+    width: 550px;
+}
+
+.footer-logo {
+    padding-bottom: 0;
+}
+
+.footer-icon {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.footer-content p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-icon :nth-child(3) {
+    background-color: black;
+    color: var(--white-color);
+    font-size: 24px;
+}
+
+.footer-nav ul li a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Footer Area Styles End */

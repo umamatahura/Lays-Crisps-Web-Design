@@ -1,0 +1,149 @@
+/* Responsive For Mobile Styles Start */
+@media screen and (max-width: 376px) {
+
+    /* Global Styles Start */
+    :root {
+        width: 100%;
+        border: 2px solid red;
+    }
+
+    /* Global Styles End */
+
+    /* Header Styles Start  */
+    .Header-container .btn {
+        display: none;
+    }
+
+    .Header-container .header-content {
+        display: none;
+    }
+
+    .Header-container .ham-icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Header Styles End */
+
+    /* Hero Area Styles Start */
+    .hero-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .hero-img {
+        margin-right: 20px;
+    }
+
+    .hero-content {
+        padding-top: 30px;
+        width: 90%;
+        padding-left: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    /* Hero Area Styles End */
+
+    /* Tasty Chips Area Styles Start */
+    .flex-container {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .chips-image img {
+        width: 80%;
+    }
+
+    .chips-image {
+        top: 60px;
+        margin-left: 280px;
+    }
+
+    .tasy-chips-content h2 {
+        width: 290px;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .tasy-chips-img img {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .tasy-chips-review {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    /* Tasty Chips Area Styles End */
+
+    /* Chips Reviews Area Styles Start */
+    .review-content {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .review-content h2 {
+        font-size: 20px;
+    }
+
+    .review-content p {
+        font-size: 14px;
+    }
+
+    .review-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Chips Reviews Area Styles End */
+
+    /* Popular Crisps Area Styles Start */
+    .popular-container {
+        flex-direction: column-reverse;
+    }
+
+    /* Popular Crisps Area Styles End */
+
+    /* Customer Area Styles Start */
+    .customer-container {
+        flex-direction: column-reverse;
+    }
+
+    .customer-image img {
+        width: 150%;
+    }
+
+    /* Customer Area Styles End */
+
+    /* Find Crisps Area Styles Start */
+    .find-crisps-content {
+        width: 90%;
+        padding: 80px 0;
+        margin-left: 10px;
+    }
+
+    /* Find Crisps Area Styles End */
+
+    /* Footer Area Styles Start */
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+
+    .footer-image img {
+        width: 100%;
+    }
+    .footer-nav{
+        display: block;
+    }
+    .footer-nav ul li a{
+        width: 10PX;
+        font-size: 8PX;
+    }
+    /* Footer Area Styles End */
+}
+/* Responsive For Mobile Styles End */
